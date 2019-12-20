@@ -1,0 +1,89 @@
+// 主题颜色
+$--z-color-primary: #409EFF;
+$--z-color-warning: #E6A23C;
+$--z-color-success: #67C23A;
+$--z-color-danger: #F56C6C;
+$--z-color-info: #909399;
+$--z-color-white: #FFFFFF;
+
+// 字体颜色
+$--z-color-text-primary: #303133; // 一级字体的颜色
+$--z-color-text-secondary: #C5DAEB; // 二级字体的颜色
+$--z-color-text-third: #040405; // 三级字体的颜色
+$--z-color-text-four: #909399; // 四级字体的颜色
+
+// 字体大小
+$--z-size-text--primary: 12px; // 一级字体的大小
+$--z-size-text--secondary: 14px; // 二级字体的大小
+$--z-size-text--third: 16px; // 三级字体的大小
+$--z-size-text--four: 18px; // 四级字体的大小
+
+// 字体粗细
+$--z-size-text--bold: bold; 
+$--z-size-text--bolder: bolder;
+
+$--z-page-content-padding: 10px!default;
+
+// 边框
+$--z-border-color-primary: #DCDFE6; // 一级边框
+$--z-border-color-secondary: #E4E7ED; // 二级边框
+$--z-border-color-third: #EBEEF5; // 三级边框
+$--z-border-color-four: #F2F6FC; // 四级边框
+
+// footer底部
+$--z-footer-height: 40px!default;
+$--z-footer-background-color: $--z-color-white !default;
+$--z-footer-color: $--z-color-text-third !default;
+$--z-footer-text-padding: $--z-page-content-padding !default;
+$--z-footer-border-color: $--z-color-text-secondary!default;
+
+// countDown 倒计时
+$--z-count-Down-size-title: 36px;
+
+// List 列表
+$--z-list-padding: 0px;
+$--z-list-first-padding-left: 130px;
+$--z-list-second-padding-left: 44px;
+$--z-list-first-height: 42px;
+$--z-list-second-height: 30px;
+$--z-list-first-image-size-width: 100px;
+$--z-list-first-image-size-height: 85px;
+$--z-list-second-image-size: 17px;
+$--z-list-second-position-left: 20px;
+$--z-list-hover-bgc: #D1DFEC;
+
+// result 结果状态
+$--z-result-symbol-size: 60px;
+$--z-result-symbol-color-403: #F5222D;
+$--z-result-symbol-color-404: $--z-color-primary;
+$--z-result-symbol-color-500: $--z-color-danger;
+
+// table 表格
+$--z-table-page-align: right;
+$--z-table-title-color: #EFF6FE;
+$--z-table-title-padding: 4px;
+$--z-table-border-color: #D5DDE8;
+$--z-table-title-sort-color: $--z-color-primary;
+$--z-table-config-font-color: #909399;
+$--z-table-title-config-top: 44px;
+
+// 加载前的骨架屏
+$--z-skeleton-width: 100%;
+$--z-skeleton-height: 280px;
+$--z-skeleton-text-size: 40px;
+$--z-skeleton-text-color: #909399;
+$--z-skeleton-text-font-weight: bolder;
+$--z-skeleton-text-margin-bottom: 45px;
+$--z-skeleton-text-height: 40px;
+$--z-skeleton-text-line-height: 40px;
+$--z-skeleton-progress-border: 1px solid #f2f2f2;
+$--z-skeleton-progress-margin-bottom: 20px;
+
+
+
+
+
+
+
+
+

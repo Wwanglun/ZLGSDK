@@ -1,0 +1,9 @@
+// 登录、注册、忘记界面
+$--auth-form-backgroud-color: rgba(24,89,143,.9);
+$--auth-form-logo-color: #2895ed;
+$--auth-form-primary-color: #fff;
+$--auth-form-second-color: #c9dceb;
+
+:export {
+    auth_form_logo_color: $--auth-form-logo-color;
+}

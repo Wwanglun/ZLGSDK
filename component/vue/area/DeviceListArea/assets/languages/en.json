@@ -1,0 +1,110 @@
+{
+  "test": "Test Message",
+  "Validate": {
+    "normalInput": "只支持输入两个以上字符长度的字母、数字、下划线"
+  },
+  "User": {
+    "PersonalData": {
+      "PersonalData": "个人资料",
+      "PersonalList": [
+        "用户名",
+        "昵称",
+        "签名",
+        "性别",
+        "邮箱",
+        "手机",
+        "公司",
+        "地址"
+      ]
+    }
+  },
+  "Device": {
+    "deviceEvent": {
+      "warning": "告警状态",
+      "error": "错误状态",
+      "number": "序号",
+      "warningName": "告警名",
+      "warningContent": "告警内容",
+      "time": "时间",
+      "operation": "操作",
+      "handle": "处理",
+      "handled": "已处理",
+      "errorType": "错误类型",
+      "errorCode": "错误码",
+      "lat": "纬度",
+      "long": "经度",
+      "logTime": "日志时间",
+      "logContent": "日志内容",
+      "temperature_high": "温度过高",
+      "temperature_too_high": "温度过高",
+      "logOwner": "所属用户"
+    },
+    "validate": {
+      "devsecretEmpty": "请输入设备的密钥值",
+      "devsecretContentError": "只支持小写字母、数字，密钥格式：8个-4个-4个-4个-12个字符",
+      "descError": "备注长度在1024个字符以内",
+      "devnameEmpty": "请输入设备名称",
+      "devidEmpty": "请输入设备ID",
+      "devidError": "只能输入字母、数字、下划线的设备ID",
+      "Offline": "检测到该设备不在线，无法修改设备信息",
+      "ABPAddressEmpty": "请输入LoRa_ABP使用的字符串",
+      "32hexadecimalError": "请输入长度为32位的16进制字符串",
+      "8hexadecimalError": "请输入长度为8位的16进制字符串",
+      "OTAAStringEmpty": "请输入LoRa_OTAA使用的字符串",
+      "updateInfo": "您没有更新设备信息的权限",
+      "sendCommand": "您没有发送设备命令的权限",
+      "DevEUI": "请输入设备devEUI",
+      "DeviceGroup": "您没有添加设备到分组或者从分组中删除设备的权限"
+    },
+    "status": {
+      "onlineNormal": "正常设备",
+      "onlineAbnormal": "故障设备",
+      "offline": "离线设备",
+      "offline2": "离线"
+    }
+  },
+  "DeviceType": {
+    "config": {
+      "keyError": "只支持两个以上字符由字母、数字、下划线组合，且非纯数字",
+      "saveSuccess": "保存配置成功",
+      "saveFailed": "保存配置失败",
+      "keyName": "名称",
+      "error": "错误",
+      "importFileSuccess": "导入配置成功",
+      "importFileFailed": "导入配置失败"
+    },
+    "validate": {
+      "empty": "请输入类型名称",
+      "error": "只能输入由大小写字母、数字、下划线组合的类型名称",
+      "errorLength": "类型名称长度在7~32个字符以内",
+      "basetypeEmpty": "请选择类型模板"
+    }
+  },
+  "Group": {
+    "validate": {
+      "nameError": "分组名称长度为2~64个字符",
+      "descError": "分组备注长度为1024个字符以内"
+    }
+  },
+  "System": {
+    "sysname": "系统名称不能超过20个字"
+  },
+  "Project": {
+    "validate": {
+      "errorLength": "项目名称长度在2~64个字符以内",
+      "projectEmpty": "请输入项目名称",
+      "projectError": "只能输入由中文、大小写字母、数字、下划线和中横线组合的项目名称"
+    }
+  },
+  "public": {
+    "dialogButton": {
+      "confirm": "确认",
+      "cancel": "取消"
+    },
+    "pagerButton": {
+      "save": "保存",
+      "reset": "重置"
+    },
+    "search": "搜索"
+  }
+}

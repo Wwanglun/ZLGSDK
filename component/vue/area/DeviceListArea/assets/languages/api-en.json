@@ -1,0 +1,135 @@
+{
+    "user": {
+        "poster": {
+            "402": "The user has already existed.",
+            "403": "Registration information is incorrect, please revise and register.",
+            "404": "",
+            "401": "The user name is incorrect. Please revise and submit the registration."
+        },
+        "deleter": {
+            "400": "User name error.",
+            "403": "You have no permissions to delete the user.",
+            "404": "User does not exist."
+        },
+        "getter": {
+            "404": "User does not exist."
+        },
+        "putter": {
+            "400": "The information submitted is incorrect. Please try again and try again.",
+            "403": "You have no permission to modify the user's information."
+        }
+    },
+    "auth": {
+        "smscode": {
+            "400": "Not a valid cell phone number.",
+            "401": "The server refuses your access.",
+            "403": "Your operation is frequent. Please try again later."
+        },
+        "changeEmailVerifyCode": {
+            "400": "Incorrect mailbox address format.",
+            "403": "You have no permission to modify user information."
+        },
+        "changeMobileVerifyCode": {
+            "400": "Invalid phone number.",
+            "403": "You have no permission to modify user information."
+        },
+        "login": {
+            "400": "Login failed. Please check if user name or password is entered correctly.",
+            "401": "The server refuses your access",
+            "403": "Your operation is frequent. Please try again later.",
+            "404": "User does not exist."
+        },
+        "userExist": {
+            "400": "Incorrect user name format.",
+            "404": "User does not exist."
+        },
+        "emailExist": {
+            "400": "Incorrect email address format.",
+            "404": "Email addresses do not exist."
+        },
+        "mobileExist": {
+            "400": "Incorrect phone number format.",
+            "404": "Telephone number does not exist."
+        },
+        "recoverPassword": {
+            "400": "System error, please contact the administrator.",
+            "403": "Your operation is frequent. Please try again later.",
+            "404": "The username, mail address, or phone number do not exist."
+        },
+        "resetPassword": {
+            "400": "System error, please contact the administrator.",
+            "404": "Device grouping does not exist."
+        },
+        "changePassword": {
+            "400": "The format of the password is not correct.",
+            "404": "Login timeout, please log in again."
+        }
+    },
+    "group": {
+        "poster": {
+            "400": "Device group name error or device grouping already existed."
+        },
+        "deleter": {
+            "400": "Device cloud ID format is incorrect.",
+            "404": "Device grouping does not exist."
+        },
+        "getter": {
+            "400": "Device cloud ID format is incorrect.",
+            "404": "Device grouping does not exist."
+        },
+        "putter": {
+            "400": "System error, please contact the administrator.",
+            "404": "Device grouping does not exist."
+        },
+        "devicePoster": {
+            "400": "Device cloud ID error or the device has been added",
+            "404": "Device grouping does not exist."
+        },
+        "deviceDeleter": {
+            "404": "Device grouping does not exist."
+        }
+    },
+    "info": {
+        "getter": {
+            "404": "Device grouping does not exist."
+        },
+        "putter": {
+            "404": "Device grouping does not exist."
+        }
+    },
+    "cmd": {
+        "getter": {
+            "404": "Device grouping does not exist."
+        },
+        "putter": {
+            "404": "Device grouping does not exist."
+        }
+    },
+    "fw": {
+        "ListGetter": {
+            "400": "The firmware does not exist."
+        },
+        "Deleter": {
+            "400": "The firmware does not exist."
+        },
+        "Poster": {
+            "400": "Firm Errors"
+        },
+        "Download": {
+            "404": "The firmware does not exist."
+        },
+        "Notify": {
+            "404": "The firmware does not exist."
+        }
+    },
+    "response": {
+        "common": {
+            "401": "Login timeout, please log in again.",
+            "408": "Server error, data request timeout.",
+            "500": "Server error, please contact the administrator",
+            "400": "Server error, request parameter error",
+            "403": "You do not have permission to operate this function",
+            "offline": "Seems to be disconnected from the Internet"
+        }
+    }
+}

@@ -1,0 +1,31 @@
+{
+    "userTips": {
+        "username": {
+            "empty": "Please enter username.",
+            "error": "You can only enter 1~32 digit numbers, letters, and underlined user names. Please re-enter them.",
+            "noexist": "username does not exist.",
+            "exist": "The username has already existed.",
+            "chinese": "There is no Chinese in the username.",
+            "dupname": "The username has already existed, please reenter it."
+        },
+        "password": {
+            "empty": "Please input a password.",
+            "error": "You can only enter 8~16 bit password without spaces. Please retype."
+        },
+        "confirmPassword": {
+            "empty": "Please enter the confirmation password.",
+            "error": "The two password is inconsistent. Please confirm that the password has entered an error."
+        },
+        "mobile": {
+            "empty": "Please enter the phone number.",
+            "error": "The number of mobile phone number is not correct, please retype.",
+            "exist": "The phone number has been used, please change the phone number.",
+            "format": "The number of mobile phone number is not correct, please retype",
+            "mutierror": "Phone number format is incorrect or has been used. Please re-enter."
+        },
+        "smscode": {
+            "empty": "Please enter the verification code",
+            "error": "Not valid verification code"
+        }
+    }
+}
