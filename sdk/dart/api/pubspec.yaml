@@ -10,11 +10,11 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  dio: ^3.0.3
-  dio_cookie_manager: ^1.0.0
-  cookie_jar: ^1.0.0
-  dio_http2_adapter: ^1.0.0
-  web_socket_channel: ^1.1.0
+  dio: ">=3.0.3 <6.0.0"
+  dio_cookie_manager: ">=1.0.0 <3.0.0"
+  cookie_jar: ">=1.0.0 <4.0.0"
+  dio_http2_adapter: ">=1.0.0 <3.0.0"
+  web_socket_channel: ">=1.1.0 <3.0.0"
 #  http_parser: ">=0.0.1 <4.0.0"
 
 dev_dependencies:
